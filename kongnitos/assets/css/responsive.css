@@ -1,0 +1,326 @@
+@media screen and (max-width: 1399px) {
+.navbar-nav {
+    padding-left: 2rem;
+    gap: 2rem;
+}
+header .nav-link.btn.header-btn {
+    padding: 1.3rem 2rem;
+}
+}
+@media screen and (max-width: 1199px) {
+    html {
+        font-size: 55%;
+    }
+    .navbar-brand img {
+        height: 6rem;
+        width: auto;
+    }
+    .navbar-nav {
+        padding-left: 1rem;
+        gap: 1rem;
+    }
+    .navbar-toggler{
+        background-color: var(--white-color);
+       
+    }
+    .navbar-toggler-icon {
+        padding: 2rem 1rem;
+        width: 2.5em;
+    height: 2.5em;
+    }
+    .mobile-show {
+        display: block;
+        margin-right: 1rem;
+    }
+    .mobile-none{
+        display: none;
+    }
+    #global_toolbar label {
+        vertical-align: middle;
+    }
+    .serach-li {
+        margin-left: 5rem;
+    }
+    .story-section-img {
+        width: 50rem;
+    }
+
+    /* mega menu */
+   .dropdown-menu .col-lg-9{
+        display: none;
+    }
+    .dropdown-menu {
+        background-color: transparent;
+        border: 0;
+    }
+    .dropdown-menu a {
+        font-size: 1.4rem;
+        color: var(--white-color);
+        font-weight: 500;
+    }
+    .list-unstyled li{
+        padding-bottom: 1rem;
+    }
+    .list-unstyled li:last-child{
+        padding-bottom: 0rem;
+    }
+    .navbar-collapse {
+
+        padding-top: 2rem;
+    }
+    button.navbar-toggler {
+        margin-left: 2rem;
+    }
+    li.nav-item.mobile-show {
+        text-align: center;
+        margin-bottom: 1rem;
+    }
+    a.nav-link.btn.header-btn.btn-orange {
+        display: inline-block;
+        margin: auto;
+    }
+  
+    span.close i {
+        font-size: 3rem;
+        padding: 4.2px 3.5px;
+    }
+    .collapsed   span.close i {
+        display: none;
+  }
+  button[aria-expanded="true"]  .navbar-toggler-icon{
+    display: none;
+  }
+  
+}
+
+  
+@media screen and (max-width: 991px) {
+    section {
+        padding: 8rem 0;
+    }
+    
+    .sec-title {
+        font-size: 4.4rem;
+    }
+    ul#pills-tab {
+        padding-left: 5rem;
+        padding-right: 5rem;
+    }
+    .tab-video {
+         margin: 0 5rem; 
+        margin-bottom: 4rem;
+    }
+    .tab-video img{
+        width: 100%;
+    }
+    .content-desc {
+        margin-bottom: 2rem;
+    }
+    .why-section .img-col img{
+        width: 100%;
+    }
+    .why-section .img-col {
+        margin-top: 5rem;
+    }
+    .shape-right {
+        width: 60%;
+    }
+    .benift-main-card {
+        padding: 5rem 5rem;
+    }
+    .benifit-card-row .col-12:nth-child(2){
+        border-left:0;
+        border-right: 0;
+        border-top: 0.1rem solid var(--button-color);
+        border-bottom: 0.1rem solid var(--button-color);
+    }
+    .resources-row .col-12{
+        margin-bottom: 2.5rem;
+    }
+    .resources-row .col-12:last-child{
+        margin-bottom: 0;
+    }
+    .story-section .sec-title{
+        font-size: 4.2rem;
+    }
+    .story-card-row .col-12{
+        margin-bottom: 2.5rem;
+    }
+    .story-card-row  .col-12:last-child{
+        margin-bottom: 0;
+    }
+    .text-center-ct{
+        text-align: center;
+    }
+    .benifit-card {
+        padding-bottom: 4rem;
+    }
+    .benifit-card-row .col-12:last-child .benifit-card{
+        padding-bottom: 0rem;
+    }
+
+    footer {
+        padding-top: 8rem;
+        padding-bottom: 3rem;
+    }
+    .footer-desc {
+        padding-top: 3rem;
+        padding-bottom: 0rem;
+        padding-right: 22rem;
+    }
+    footer  .mt-50 , .mt-40-footer {
+        margin-top: 5rem;
+    }
+  }
+
+
+  @media screen and (max-width: 767px) {
+    .nav-container {
+        max-width: 98%;
+        padding: 1rem 1rem;
+    }
+    .navbar-toggler-icon {
+        padding: 1.5rem 1rem;
+        width: 2em;
+        height: 2em;
+    }
+       span.close i {
+        font-size: 3rem;
+        padding: 0 1px;
+    } 
+    header .nav-link.btn.header-btn {
+        padding: 1.3rem 2rem;
+    }
+    .serach-li {
+        margin-left: 3rem;
+    }
+    .serach-li::after {
+        left: -1.7rem;
+    }
+    .navbar-brand img {
+        height: 5rem;
+        width: auto;
+    }
+    .content-title {
+        font-size: 2.8rem;
+    }
+    .sec-title {
+        font-size: 3.5rem;
+    }
+    ul#pills-tab {
+        padding-left: 1rem;
+        padding-right: 1rem;
+    }
+    .ct-flex {
+        display: flex;
+        align-items: baseline;
+        gap: 1rem;
+        margin-bottom: 1.4rem;
+    }
+    .tab-content i.fa-regular.fa-circle-check {
+        font-size: 1.6rem;
+    }
+  }
+
+  @media screen and (max-width: 575px) {
+    section {
+        padding: 6rem 0;
+    }
+    .hero-section {
+        height: auto;
+        padding-top: 15rem;
+        padding-bottom: 6rem;
+        background-position: center 12rem;
+        background-color: #150e59;
+    }
+    #video-popup-container {
+        width: 90%;
+        left: 50%;
+        margin-left: -45%;
+    }
+    .btn-col {
+        text-align: center;
+    }
+    .hero-title {
+        font-size: 5.2rem;
+    }
+    .hero-desc p br{
+        display: none;
+    }
+    ul#pills-tab {
+        padding-left: 0;
+        padding-right: 0;
+    }
+    .nav-item button {
+        padding: 2rem 0;
+    }
+    .tab-video {
+        margin: 0 2rem;
+        margin-bottom: 2rem;
+    }
+    .right-inner-content {
+        padding-left: 2rem;
+    }
+    .platform-inner-card {
+
+        flex-direction: column;
+  }
+  .benift-main-card {
+    padding: 5rem 1rem;
+}
+.story-section .sec-title {
+    font-size: 3.4rem;
+}
+.request-demo {
+    padding: 6rem 0;
+}
+footer {
+    padding-top: 5rem;
+    padding-bottom: 3rem;
+    padding-left: 0.5em;
+    padding-right:  0.5em;
+}
+.footer-desc {
+    padding-right: 0;
+}
+footer .mt-50, .mt-40-footer {
+    margin-top: 3.5rem;
+}
+.copyright a , .copyright p{
+    font-size: 1.5rem;
+
+}
+.why-section .content-wrap {
+    padding-right: 1rem;
+    padding-left: 1rem;
+}
+.sponser-demo {
+    padding: 6rem 0;
+}
+}
+
+@media screen and (max-width: 410px) {
+    .nav-container {
+        border-radius: 0 0 1.5rem 1.5rem;
+    }
+    .hero-title {
+        font-size: 4.6rem;
+    }
+    .content-title {
+        font-size: 2.4rem;
+    }
+    .benift-main-card .sec-title {
+        font-size: 3.5rem;
+        margin-bottom: 1rem;
+    }
+    .benift-main-card {
+        padding: 3rem 1rem;
+    }
+    .story-section .sec-title {
+        font-size: 3rem;
+    }
+    .sponser-demo .sec-sm-title {
+        font-size: 2.5rem;
+        font-weight: 700;
+    }
+}

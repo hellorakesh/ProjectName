@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="132" height="132" viewBox="0 0 132 132">
+  <defs>
+    <linearGradient id="linear-gradient" x1="0.04" y1="0.033" x2="0.949" y2="0.971" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#661eff"/>
+      <stop offset="1" stop-color="#9857ff"/>
+    </linearGradient>
+    <filter id="Rectangle_40" x="0" y="0" width="132" height="132" filterUnits="userSpaceOnUse">
+      <feOffset dy="10" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="10" result="blur"/>
+      <feFlood flood-color="#6821ff" flood-opacity="0.271"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <clipPath id="clip-path">
+      <rect id="Rectangle_116" data-name="Rectangle 116" width="19" height="35" fill="#d6c1ff"/>
+    </clipPath>
+  </defs>
+  <g id="Group_259" data-name="Group 259" transform="translate(-467 -3499)">
+    <g transform="matrix(1, 0, 0, 1, 467, 3499)" filter="url(#Rectangle_40)">
+      <rect id="Rectangle_40-2" data-name="Rectangle 40" width="72" height="72" rx="14" transform="translate(30 20)" fill="url(#linear-gradient)"/>
+    </g>
+    <g id="Group_82" data-name="Group 82" transform="translate(524 3538)">
+      <g id="Group_81" data-name="Group 81" clip-path="url(#clip-path)">
+        <path id="Path_206" data-name="Path 206" d="M18.948,12a.561.561,0,0,0-.507-.337H11.819L18.354.895A.6.6,0,0,0,18.372.3a.558.558,0,0,0-.49-.3H8.942a.555.555,0,0,0-.5.323L.059,17.823a.606.606,0,0,0,.024.567.555.555,0,0,0,.476.276H6.306L.044,34.19a.6.6,0,0,0,.223.725.544.544,0,0,0,.719-.122L18.868,12.627a.608.608,0,0,0,.08-.623" fill="#d6c1ff" fill-rule="evenodd"/>
+      </g>
+    </g>
+  </g>
+</svg>
